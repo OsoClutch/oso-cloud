@@ -1,0 +1,19 @@
+# secrets and local config
+.env
+
+# the built index: derived from corpus/, and a real one contains embeddings
+index.json
+
+# generated decks are artifacts; commit them deliberately, not by accident
+decks/
+
+# python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# promptfoo
+.promptfoo/
+promptfoo-errors.log
+output.json

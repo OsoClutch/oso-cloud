@@ -1,0 +1,11 @@
+# Runtime
+boto3~=1.35
+fastapi~=0.115
+uvicorn~=0.32
+pydantic~=2.9
+python-dotenv~=1.0
+
+# Tests
+pytest~=8.3
+httpx2~=2.13
+pyyaml~=6.0
